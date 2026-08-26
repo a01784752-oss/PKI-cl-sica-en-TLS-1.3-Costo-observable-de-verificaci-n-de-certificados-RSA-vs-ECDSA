@@ -1,0 +1,21 @@
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated experiment runs and downloaded CA bundle
+tls_web_experiment_*/
+cacert.pem
+
+# Local secrets and private-key containers
+.env
+.env.*
+!.env.example
+*.key
+*.p12
+*.pfx
+
+# Operating-system files
+.DS_Store
+Thumbs.db

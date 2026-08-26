@@ -1,0 +1,3 @@
+# Optional: plots are skipped when Matplotlib is unavailable.
+# Dependency versions have not been locked or installation-tested.
+matplotlib
